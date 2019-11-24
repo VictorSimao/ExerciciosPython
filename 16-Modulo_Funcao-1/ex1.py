@@ -3,3 +3,10 @@
 #--- O cabeçalho deve ser escrito usando a multiplicação de carácter
 #--- O cabeçalho deev conter o nome de uma empresa, que será uma variável
 #--- Realize a chamada da função na ultima linha do seu programa
+
+empresa = 'HBSIS'
+
+def menu(empresa):
+    return(print('-'*55,f'\n\t\t\t{empresa}\n','-'*55))
+
+menu = menu(empresa)
