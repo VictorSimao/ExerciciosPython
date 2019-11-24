@@ -8,7 +8,7 @@ def header(empresa):
     empresa = empresa
     print('#'*55, '\n')
     print(empresa)
-    print('\n', '#'*55, sep='')
+    print('\n', '#'*55, '\n', sep='')
     return ''
 
 empresa = 'HBSIS / Anheuser Busch InBev'
