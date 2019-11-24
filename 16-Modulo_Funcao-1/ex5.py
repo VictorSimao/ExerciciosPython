@@ -4,3 +4,11 @@
 #--- Leia um número do console e armazene em uma variável
 #--- Realize o calculo da raiz e armazene em uma segunda variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
+
+def raiz():
+    indice = int(input('\nDigite o indice: '))
+    radicando = int(input('Digite o radicando: '))
+    resultado = radicando ** (1/indice)
+    return print(f'\nO resulto da raíz é entre os dois números é: {resultado}')
+
+raiz()
