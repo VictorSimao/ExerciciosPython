@@ -11,3 +11,21 @@
 #--- Deve ser realizada a leitura do salário fora da função e armazenada em uma variável
 #--- Chamar a função e passar a variável do salário criada durante a leitura do console
 
+def contrib(salario):
+    if salario > 0 and salario <= 1000:
+        valor = salario*0.01
+        return print(f'\nO valor da contribuição do funcionário é de R${valor:.2f}.')
+    elif salario >= 1000.01 and salario <= 3000:
+        valor = salario*0.015
+        return print(f'\nO valor da contribuição do funcionário é de R${valor:.2f}.')
+    elif salario >= 3000.01 and salario <= 6000:
+        valor = salario*0.02
+        return print(f'\nO valor da contribuição do funcionário é de R${valor:.2f}.')
+    elif salario >= 6000.01:
+        valor = salario*0.025
+        return print(f'\nO valor da contribuição do funcionário é de R${valor:.2f}.')
+    else:
+        return print('\nO salário deve ser superior a R$0,00.')
+
+salario = float(input('\nDigite o salário do funcionário: '))
+contrib(salario)
