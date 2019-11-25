@@ -5,11 +5,12 @@
 #--- Cada opção deve vir acompanhada de um número
 #--- Cada opção deve ser impressa em uma linha diferente
 
-
-cod = int(input('Digite seu código:'))
-
-print('\n1 - Cadastrar')
-print('\n2 -  Alterar')
-print('\n3 - Listar')
-print('4 - Sair')
+print('='*60)
+print('\n')
+print('1 - [  CADASTRAR ]')
+print('2 - [   ALTERAR  ]')
+print('3 - [   LISTAR   ]')
+print('4 - [    SAIR    ]')
+print('\n')
+print('='*60)
 

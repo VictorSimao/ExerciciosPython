@@ -5,11 +5,13 @@
 #--- Cada opção deve vir acompanhada de um número
 #--- Cada opção deve ser impressa em uma linha diferente
 
+cadastro = input('Digite seu cadastro:')
 
-cod = int(input('Digite seu código:'))
-
-print('\n1 - Cadastrar')
-print('\n2 -  Alterar')
-print('\n3 - Listar')
-print('4 - Sair')
-
+cadastrar = ('1-'' ''Cadastrar')
+print(cadastrar)
+alterar = ('2-'' ''Alterar')
+print(alterar)
+listar = ('2-'' ''Listar')
+print(listar)
+sair = ('3-'' ''sair')
+print(sair)
