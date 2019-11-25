@@ -3,3 +3,11 @@
 #--- Armazene cada número em uma variável
 #--- Realize a soma entre os dois números e armazene o resultado em uma terceira variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
+
+a = int(input('Digite um numero: '))
+b = int(input('Digite um numero: '))
+
+def soma(a , b):
+    return a + b
+
+print(f'A soma é: {soma(a,b)}')

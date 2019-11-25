@@ -4,3 +4,15 @@
 #--- Calcule a média entre os três números e armazene em uma quarta variável
 #--- Imprima a média e uma mensagem usando f-string (módulo 3)
 #--- Deve ser impresso apenas duas cadas após a vírgula
+
+def media(a , b , c):
+    media = (a + b + c) / 3
+    return(media)
+
+
+a = int(input('Digite um numero: '))
+b = int(input('Digite um numero: '))
+c = int(input('Digite um numero: '))
+
+print(f'A media das 3 notas é: {media(a,b,c):.2f}')
+
