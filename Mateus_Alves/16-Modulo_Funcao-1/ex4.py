@@ -4,3 +4,16 @@
 #--- A multiplicação deve ser feita em cima de uma variável que contenha um caracter pré-determinado
 #--- Crie uma segunda função que imprima um rodapé utilizando a mesma técnica
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
+
+cabe = '='
+roda = '=-='
+
+def cab(cabe):
+    print(cabe*30)
+
+def rod(roda):
+    print(roda*10)
+
+cab(cabe)
+print('\n','Opa','\n')
+rod(roda)
