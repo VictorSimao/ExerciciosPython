@@ -6,3 +6,12 @@
 #---   2 - Listar bebidas não alcoolicas
 #---   3 - Visualizar Pedido
 #---   4 - Sair
+
+
+print('#'*80)
+print('"'*25,'BEBIDAS HBSIS','"'*25)
+print('BEBIDAS ALCOOLICAS: ')
+print('NÃO ALCOOLICAS: ')
+print('\nSUA COMPRA: ')
+print('\nSair')
+print('"'*25,'SE BEBER NÃO DIRIJA', '"'*25)
