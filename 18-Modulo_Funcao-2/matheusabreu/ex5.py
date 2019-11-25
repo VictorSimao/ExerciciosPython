@@ -10,3 +10,27 @@
 #--- Crie um menu com cabeçalho e rodapé com as opções listadas acima
 #--- Realize a leitura da opção digitada pelo usuário no terminal
 #--- Realize a chamada da função que valida o menu e passe o variável criada durante a leitura do terminal
+
+def validar(op):
+    if op < 0 or op >2:
+        return print('\nOpção inválida')
+    elif op == 0:
+        return sair()
+    elif op == 1:
+        return cadastrar()
+    elif op == 2:
+        return listar()
+def sair():
+    return print('\nUsuário realizou o logoff.')
+
+def cadastrar():
+    return print('\nCadastro de usuários')
+
+def listar():
+    return print('\nLista de usuários cadastrados')
+
+print('#'*55, '\n', sep='')
+print(f'MENU \n1 -> Cadastrar \n2 -> Listar \n0 -> Sair')
+print('\n', '#'*55, sep='')
+op = int(input('\nSelecione uma opção: '))
+validar(op)
