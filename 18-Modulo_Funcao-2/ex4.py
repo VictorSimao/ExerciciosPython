@@ -19,15 +19,15 @@ def calcula_contribuicao_previdencia(salario):
     elif(salario >= 1000.01) and (salario <= 3000):
         contribuicao_previdencia = salario * 0.015
         salario_liquido = salario - contribuicao_previdencia
-        return(contribuicao_previdencia)
+        return(f'Salário do funcionário: {salario:.2f}\nContribuição Necessária: {contribuicao_previdencia:.2f}\nSalário Líquido: {salario_liquido:.2f}')
     elif(salario >= 3000.01) and (salario <= 6000):
         contribuicao_previdencia = salario * 0.02
         salario_liquido = salario - contribuicao_previdencia
-        return(contribuicao_previdencia)
+        return(f'Salário do funcionário: {salario:.2f}\nContribuição Necessária: {contribuicao_previdencia:.2f}\nSalário Líquido: {salario_liquido:.2f}')
     elif(salario > 6000.01):
         contribuicao_previdencia = salario * 0.025
         salario_liquido = salario - contribuicao_previdencia
-        return(contribuicao_previdencia)
+        return(f'Salário do funcionário: {salario:.2f}\nContribuição Necessária: {contribuicao_previdencia:.2f}\nSalário Líquido: {salario_liquido:.2f}')
 
 salario = float(input('Informe o seu salário\n'))
 
