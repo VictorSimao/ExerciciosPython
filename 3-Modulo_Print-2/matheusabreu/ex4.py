@@ -6,3 +6,11 @@
 #--- Crie uma variável de nome telegram e atribua um valor booleano 
 #--- Imprima as cinco variáveis juntamente com uma frase dizendo se possui conta nas mídias citadas 
 #--- Para impressão utilize f-string
+
+nome = 'Matheus'
+linkedin = True
+instagram = True
+facebook = True
+telegram = False
+
+print(f'\nNome: {nome}', '\n'*2, f'Possui LinkedIn? -> {linkedin} \nPossui Instagram? -> {instagram} \nPossui Facebook? -> {facebook} \nPossui Telegram? -> {telegram}', sep='')
