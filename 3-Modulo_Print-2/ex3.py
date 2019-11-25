@@ -2,3 +2,7 @@
 #--- Crie uma variável e atribua uma string com o nome de um cargo
 #--- Crie uma variável e atribua um float com o salário
 #--- Imprima as duas variáveis juntamente com uma frase utilizando a função format()
+
+cargo = 'Estagiário'
+salario = '677.77'
+print('Seu cargo é {} e você ganha {}'.format(cargo,salario))
