@@ -11,6 +11,4 @@ from metodo_1 import cabecalho
 n1 = input('Digite o nome do sistema:')
 n2 = input('Digite o caracter que será multiplicado para fazer a linha de cabeçalho:')
 
-print(f'{cabecalho(n2)}\n')
-print(f'{n1}')
-print(f'\n{cabecalho(n2)}')
+print(f'{cabecalho(n2,n1)}')

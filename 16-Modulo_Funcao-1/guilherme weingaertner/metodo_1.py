@@ -4,12 +4,12 @@ def vezes(n1,n2):
 
 def potencia(n1,n2):
     return(n1**n2)
-
-
-def cabecalho(n1,n2):
-    print(n2*80)
+def cabecalho(n1):
+    print('='*80)
+    print('\n')
     print(n1)
-    print(n2*80)
+    print('\n')
+    print('='*80)
     return cabecalho
 
 def imposto(salario):
