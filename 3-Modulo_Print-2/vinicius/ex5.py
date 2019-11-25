@@ -6,3 +6,13 @@
 #--- Utilize f-string para concatenação das strings
 #--- Imprima um cabeçalho e um rodapé utilizando multiplicação de strings
 #--- Imprima espaçamentos utilizando tabulação e quebra de linha
+
+nome = input('\nDigite seu nome: ')
+
+op = int(input(f'\nDigite qual link voce quer ver o {nome}: \n1- linkedin \n2- github \nOpção: '))
+
+if op == 1:
+    print('\nhttps://github.com/ViniciusNitzke')
+
+if op == 2:
+    print('\nhttps://www.linkedin.com/feed/')
