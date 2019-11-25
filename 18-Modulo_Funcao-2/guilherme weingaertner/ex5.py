@@ -19,15 +19,27 @@ print('2-Chamar uma função Listar')
 print('#'*80)
 
 n1 = int(input('Digite o numero(0,1,2)'))
-print('#'*80)
 
-if n1 > 2 or n1 < 0:
-        print('ERRO,DIGITE UM NUMERO INTEIRO ENTRE 0-2')
-else:
-    if n1 == 0:
+
+
+def erro(n1):
+    if n1 > 2 or n1 < 0:
+        return'ERRO,DIGITE UM NUMERO INTEIRO ENTRE 0-2'
+    
+
+if n1 == 0:
+        print(' ','='*80,'\n'*2)
         print(f'{sair()}')
-    elif n1 == 1:
+        print('\n'*2,'='*80)
+elif n1 == 1:
+        print(' ','='*80,'\n'*2)
         print(f'{cadastrar()}')
-    else:
+        print('\n'*2,'='*80)
+elif n1 == 2:
+        print(' ','='*80,'\n'*2)
         print(f'{listar()}')
-
+        print('\n'*2,'='*80)
+else:
+        print(' ','='*80,'\n'*2)
+        print(f'{erro(n1)}')
+        print('\n'*2,'='*80)
