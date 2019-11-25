@@ -4,3 +4,9 @@
 #--- Deve ser usado apenas uma vez a função print()
 #--- Cada dado deve ser impresso em uma linha diferente
 #--- O salário deve ser de tipo flutuante
+
+nome= input('digie seu nome: ')
+sobrenome=input ('digite seu sobrenome: ')
+idade= int(input('digite sua idade: '))
+empresa= input('digite o nome de sua empresa: ')
+cidade= input ('digite sua cidade: ')

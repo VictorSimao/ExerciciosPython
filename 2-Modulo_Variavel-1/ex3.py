@@ -7,3 +7,12 @@
 #---    Autor
 #---    Data de publicação
 #--- Os parágrafos devem estar formatados conforme a formatação do livro
+
+titulo= ('titulo: Tem espirito no carro?')
+print(titulo)
+edicao= ('Edicao: 1(2017) ')
+print(edicao)
+autor= ('Autor: Tarsis Roberto Filho ')
+print(autor)
+data_de_publicacao= ('Data de publição: 2017 ')
+print(data_de_publicacao)

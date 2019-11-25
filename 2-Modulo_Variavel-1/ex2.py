@@ -11,3 +11,15 @@
 #--- Além das opções o menu deve conter um cabeçalho e um rodapé
 #--- Entre o cabeçalho e o menu e entre o menu e o rodapé deverá ter espaçamento de 3 linhas
 #--- Deve ser utilizado os caracteres especiais de quebra de linha e de tabulação
+
+print ('AMBEV/HBSIS')
+cadastrar_funcionario= (f'cadastrar funcionario')
+print (cadastrar_funcionario)
+listar_funcionario= (f'listar funcionario')
+print(listar_funcionario)
+editar_funcionario= (f'editar funcionario')
+print(editar_funcionario)
+deletar_funcionario= (f'deletar funcionario')
+print(deletar_funcionario)
+sair= (f'sair')
+print(sair)
