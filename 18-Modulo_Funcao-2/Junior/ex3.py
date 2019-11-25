@@ -5,3 +5,11 @@
 #--- O segundo dado deve ser o caracter que será multiplicado para fazer a linha de cabeçalho
 #--- A impressão deve ser realizada utilizando f-string
 #--- A função deve ser chamada informando os dois dados
+
+def cabeçalho(msg):
+    print('#'*20,'CABEÇALHO','#'*20,'\n'*2)
+    print(msg)
+    print('\n'*2,'#'*20,'RODAPÉ','#'*20)
+
+cabeçalho('\t\tSistema Bonzão')
+

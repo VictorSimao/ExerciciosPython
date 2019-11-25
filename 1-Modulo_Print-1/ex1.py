@@ -2,4 +2,3 @@
 #--- Imprima textos com seu nome, sobrenome e idade 
 #--- Cada informação deve ser impressa em uma linha diferente 
 
-print('Meu nome é: Tarcisio \nSobrenome: Cardoso junior \nE tenho: 23 anos.')
