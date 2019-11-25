@@ -12,3 +12,8 @@
 #--- Entre o cabeçalho e o menu e entre o menu e o rodapé deverá ter espaçamento de 3 linhas
 #--- Deve ser utilizado os caracteres especiais de quebra de linha e de tabulação
 
+print('='*50,'\n'*3)
+print('1-Cadastrar funcionario \n2-Listar funcionários \n3-Editar funcionário \n4-Deletar funcionário \n5-Sair')
+op=int(input('O que deseja fazer?'))
+print(f'Você escolheu a opção {op}')
+print('\n'*3,'='*50)

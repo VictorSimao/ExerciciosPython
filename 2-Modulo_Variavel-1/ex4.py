@@ -7,3 +7,4 @@
 #--- Cada ponto de parada, data, hora e descrição será uma variável.
 #--- O itinerário deve conter cabeçalho com o título da viagem, que será uma variável
 #--- Deve ser usado os caracteres de tabulação e quebra de linha
+

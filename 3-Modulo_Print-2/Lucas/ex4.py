@@ -7,3 +7,10 @@
 #--- Imprima as cinco variáveis juntamente com uma frase dizendo se possui conta nas mídias citadas 
 #--- Para impressão utilize f-string
 
+nome = input('Qual seu nome')
+linkedin=True
+instagran=False
+facebook=True
+telegram=False
+
+print(f'{nome} tem quais redes sociais? \nlinkedin {linkedin} \nNome instagran {instagran} \nNome facebook {facebook} \nNome telegram {telegram}')

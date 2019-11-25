@@ -11,3 +11,17 @@
 #--- Realize a leitura da opção digitada pelo usuário no terminal
 #--- Realize a chamada da função que valida o menu e passe o variável criada durante a leitura do terminal
 
+def valida(op):
+    if op ==0:
+        r='Usuário realizou o logoff'
+    elif op==1:
+        r='Cadastro de usuários'
+    elif op==2:
+        r='Lista de usuários cadastrados'
+    else:
+        r='Opção invalida'
+    return print(f'{r}')
+print('='*50,'\n')
+op = int(input('O que deseja fazer? \n0-Sair \n1-Cadastrar \n2-Listar'))
+print('\n','='*50)
+valida(op)

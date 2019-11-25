@@ -7,3 +7,11 @@
 #---   3 - Visualizar Pedido
 #---   4 - Sair
 
+print('='*50)
+print('\t Bem vindo')
+print('O que deseja fazer?')
+print('1- Listar bebidas alcoolicas')
+print('2- Listar bebidas não alcoolicas')
+print('3- Visualizar pedido')
+print('4- Sair')
+print('='*50)

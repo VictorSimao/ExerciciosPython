@@ -6,3 +6,9 @@
 #--- A impressão deve ser realizada utilizando f-string
 #--- A função deve ser chamada informando os dois dados
 
+def cabecalho(nome,caracter):
+    return print(f'{caracter}'*50,f'\n \t{nome}')
+
+nome = input('Digite o nome da empresa')
+caracter= input('Digite o caracter a ser usado no cabeçalho')
+cabecalho(nome,caracter)

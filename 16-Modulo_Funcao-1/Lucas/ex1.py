@@ -4,3 +4,9 @@
 #--- O cabeçalho deev conter o nome de uma empresa, que será uma variável
 #--- Realize a chamada da função na ultima linha do seu programa
 
+def cabeçalho(empresa):
+    return print('='*50,f'\nA empresa é {empresa}')
+
+empresa = input('Digite o nome da empresa')
+
+cabeçalho(empresa)

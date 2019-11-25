@@ -2,4 +2,4 @@
 #--- Imprima textos com seu nome, sobrenome e idade 
 #--- Cada informação deve ser impressa em uma linha diferente 
 
-
+print ('Nome: Lucas \nSobrenome: Lima \nIdade: 17')
