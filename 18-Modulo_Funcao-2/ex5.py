@@ -10,3 +10,31 @@
 #--- Crie um menu com cabeçalho e rodapé com as opções listadas acima
 #--- Realize a leitura da opção digitada pelo usuário no terminal
 #--- Realize a chamada da função que valida o menu e passe o variável criada durante a leitura do terminal
+
+
+############################################### AREA DOS METODOS ###############################
+def menu (a):
+    if a == 0:
+        sair()
+    elif a == 1:
+        cadastrar()
+    elif a == 2:
+        listar()
+    else:
+        print('INVLIDA')
+    
+def sair ():
+    print('logoff')
+
+def cadastrar ():
+    print('Cadastrar')
+
+def listar ():
+    print('listar')
+
+################################ AREA DO PROGRAAMA ###############################################
+cr = '$'*50
+n1 = int(input('Digite um número entre 0 e 3: '))
+cab = (cr, '\n'*4, n1, '\n'*4, cr)
+print(n1)
+menu(n1)

@@ -7,3 +7,10 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+def pot (a,b):
+    rs = a**b
+    print('O resultado da equação é de: {}'.format(rs))
+
+n1 = int(input('Digite a base, da potencia que deseja obter: '))
+n2 = int(input('Digite o expoente para sua base ,que foi digitada na linha a cima'))
+pot(n1, n2)
