@@ -5,3 +5,10 @@
 #--- Faça a leitura de dois números inteiros fora da função e atribua a duas variáveis
 #--- Realize a chamada da função passando os dois valores lidos do console
 
+def multiplicacao (numero1,numero2):
+    multi=numero1*numero2
+    print(f'A multiplicacao entre o numero {numero1} e o numero {numero2} será {multi}')
+
+n1=int(input('Digite o primeiro numero: '))
+n2=int(input('Digite o segundo numero: '))
+multiplicacao(n1,n2)

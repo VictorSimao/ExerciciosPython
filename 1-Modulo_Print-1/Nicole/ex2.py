@@ -4,3 +4,10 @@
 #--- O menu deve conter as opções de Cadastrar, Alterar, Listar e Sair
 #--- Cada opção deve vir acompanhada de um número
 #--- Cada opção deve ser impressa em uma linha diferente
+
+print('''Digite:
+1- Cadastrar
+2- Alterar 
+3- Listar
+4- Sair
+''')

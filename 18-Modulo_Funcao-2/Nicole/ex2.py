@@ -7,3 +7,11 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+def numeros (numero1,numero2):
+    potencia=numero1**numero2
+    print('A potencia dos numeros {} como base, e {} como expoente, tera resultado {}'.format(numero1,numero2,potencia))
+
+n1=int(input('Digite o primeiro numero: '))
+n2=int(input('Digite o segundo numero: '))
+numeros(n1,n2)

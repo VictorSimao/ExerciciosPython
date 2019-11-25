@@ -11,3 +11,14 @@
 #--- Além das opções o menu deve conter um cabeçalho e um rodapé
 #--- Entre o cabeçalho e o menu e entre o menu e o rodapé deverá ter espaçamento de 3 linhas
 #--- Deve ser utilizado os caracteres especiais de quebra de linha e de tabulação
+
+print('='*25,'MENU','='*25)
+
+n1=1
+n2=2
+n3=3
+n4=4
+n5=5
+
+print(' Cadastrar funcionario {} \n Listar funcionários {} \n Editar funcionário {}\n Deletar funcionário {}\n Sair {}'.format(n1,n2,n3,n4,n5))
+print('='*56)

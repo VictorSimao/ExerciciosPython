@@ -4,3 +4,8 @@
 #--- O cabeçalho deev conter o nome de uma empresa, que será uma variável
 #--- Realize a chamada da função na ultima linha do seu programa
 
+def cabecalho ():
+    cabe=('HBSIS')
+    print('='*50,cabe,'='*50)
+
+cabecalho()

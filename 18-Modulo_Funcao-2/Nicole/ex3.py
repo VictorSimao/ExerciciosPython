@@ -6,3 +6,9 @@
 #--- A impressão deve ser realizada utilizando f-string
 #--- A função deve ser chamada informando os dois dados
 
+def cabecalho (d1,d2):
+    print(d2*50,d1,d2*50)
+
+dado1=input('Digite o nome do sistema: ')
+dado2=input('Digite o caracter a ser usado: ')
+cabecalho(dado1,dado2)

@@ -5,3 +5,12 @@
 #--- Crie uma segunda função que imprima um rodapé utilizando a mesma técnica
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
 
+def cabecalho1 ():
+    cabe1=input('Digite algo: ')
+    print(f'='*50,cabe1,'='*50)
+
+def cabecalho2 ():
+    cabe2=input('Digite algo: ')
+    print(f'='*50,cabe2,'='*50)
+
+cabecalho1(),cabecalho2()
