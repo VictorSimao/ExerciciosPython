@@ -11,3 +11,27 @@
 #--- Realize a leitura da opção digitada pelo usuário no terminal
 #--- Realize a chamada da função que valida o menu e passe o variável criada durante a leitura
 
+########################################### area dos metodos ##################################
+
+def menu (a):
+    if a == 0:
+        sair ()
+    if a == 1:
+        cadastrar()
+    if a == 2:
+        listar()
+
+def sair ():
+    print('Usuário(a) realizou Logoff')
+def cadastrar():
+    print('Cadastro de usuários')
+def listar ():
+    print('Lista de usuários cadastrados')
+
+####################################### area do programa ###################################
+
+print('==---'*20)
+print('\nSelecione uma das opções válidas\n(0)SAIR\n(1)CADASTRAR\n(2)LISTAR\n')
+print('==---'*20)
+a = int(input('Sua opção:'))
+menu(a)
