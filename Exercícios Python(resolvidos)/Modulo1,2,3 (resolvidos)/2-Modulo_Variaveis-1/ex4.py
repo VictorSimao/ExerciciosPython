@@ -1,14 +1,16 @@
-#--- Exercicio 4  - Variávies e impressão com interpolacão de string
+#--- Exercício 4  - Variáveis
 #--- Imprima a tela de um itinerário de viagem
 #--- O itinerário deve conter o ponto de partida e de destino
-#--- Entre os dois pontos deve conter no minimo 10 pontos de parada
-#--- Cada item deve conter data, hora e descrição
-#--- O itineário deve conter cabeçalho com o título da viagem
-#--- Os dados de cada ponto devem estar em variáveis
-#--- Deve ser usado os caracteres de tabulação, quebra de linha e a função Format()
+#--- O ponto de partida e de destino devem estar armazenados em variáveis
+#--- Entre os dois pontos deve conter no mínimo 10 pontos de parada
+#--- Cada item ponto de parada deve conter data, hora e descrição
+#--- Cada ponto de parada, data, hora e descrição será uma variável.
+#--- O itinerário deve conter cabeçalho com o título da viagem, que será uma variável
+#--- Deve ser usado os caracteres de tabulação e quebra de linha
 
+titulo = 'PREENCHA O ITINERÁRIO DE VIAGEM'
 print('='*135)
-print('PREENCHA O ITINERÁRIO DE VIAGEM')
+print(titulo)
 
 partida = input('\nDigite o ponto de partida: ')
 datapartida = input('Digite a data: ')
@@ -62,8 +64,9 @@ print('='*135)
 
 print("\n" * 1000)
 
+titulo = 'ITINERÁRIO DE VIAGEM'
 print('='*135)
-print('ITINERÁRIO DE VIAGEM')
+print(titulo)
 print('-'*135)
 print(f'Partida: {partida}\nData de partida: {datapartida}\nHora de Partida: {horapartida}')
 print('-'*135)

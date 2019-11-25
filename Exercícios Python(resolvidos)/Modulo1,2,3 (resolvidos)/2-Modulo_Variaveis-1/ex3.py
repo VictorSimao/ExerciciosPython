@@ -1,7 +1,11 @@
-#--- Exercicio 3  - Variávies e impressão com interpolacão de string
-#--- Imprima dois paragráfos do ultimo livro que você leu
+#--- Exercício 3  - Variáveis
+#--- Imprima dois parágrafos do último livro que você leu
 #--- A impressão deve conter informações do livro, que deverão estar em variáveis
-#--- Livro: Título, Edição, Autor, Data de publicação
+#--- As informações do Livro serão: 
+#---    Título
+#---    Edição
+#---    Autor
+#---    Data de publicação
 #--- Os parágrafos devem estar formatados conforme a formatação do livro
 
 print('''\nPRIMEIRO PARÁGRAFO\n Hugo, um pacote para você! gritou Alberto, recebendo um pequeno
@@ -14,9 +18,9 @@ cristal refletia um rosto sardento de dezoito anos, extremamente simpático e
 sadio, aureolado por cabelos tão vermelhos que o moço era conhecido por
 "Foguinho".''')
 
-nome = input('\nDigite o nome do livro: ')
-edicao = input('Digite a edição do livro: ')
-autor = input('Digite o autor do livro: ')
-data = input('Digite a data de publicação do livro: ')
+nome = 'O Escaravelho Do Diabo'
+edicao = '1ª'
+autor = 'Lúcia Machado de Almeida'
+data = '26 de dezembro de 1974'
 
 print(f'\nNome do Livro: {nome}\nEdição do Livro: {edicao}\nAutor do Livro: {autor}\nData de Publicação: {data}')
