@@ -7,3 +7,13 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+
+def potencia(a , b):
+    total = a ** b
+    return print(f'{a} elevado à {b} potência é igual a {total}')
+
+a = int(input('Digite o número da base: '))
+b = int(input('Digite o número da potência: '))
+
+potencia(a , b)

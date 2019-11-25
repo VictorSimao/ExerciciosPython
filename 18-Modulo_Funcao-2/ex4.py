@@ -11,3 +11,24 @@
 #--- Deve ser realizada a leitura do salário fora da função e armazenada em uma variável
 #--- Chamar a função e passar a variável do salário criada durante a leitura do console
 
+def contribuicao_previdencia(sal):
+    if(sal >= 0) and (sal <= 1000):
+        contribuicao = sal * 0.01
+        sal_liq = sal - contribuicao
+        return print(f'Salário do funcionário: {sal:.2f}\nContribuição Necessária: {contribuicao:.2f}\nSalário Líquido: {sal_liq:.2f}')
+    elif(sal >= 1000.01) and (salario <= 3000):
+        contribuicao = sal * 0.015
+        sal_liq = sal - contribuicao
+        return print(f'Salário do funcionário: {sal:.2f}\nContribuição Necessária: {contribuicao:.2f}\nSalário Líquido: {sal_liq:.2f}')
+    elif(sal >= 3000.01) and (sal <= 6000):
+        contribuicao = sal * 0.02
+        sal_liq = sal - contribuicao
+        return print(f'Salário do funcionário: {sal:.2f}\nContribuição Necessária: {contribuicao:.2f}\nSalário Líquido: {sal_liq:.2f}')
+    elif(sal > 6000.01):
+        contribuicao = sal * 0.025
+        sal_liq = sal - contribuicao
+        return print(f'Salário do funcionário: {sal:.2f}\nContribuição Necessária: {contribuicao:.2f}\nSalário Líquido: {sal_liq:.2f}')
+
+salario = float(input('Informe o seu salário\n'))
+
+contribuicao_previdencia(salario)

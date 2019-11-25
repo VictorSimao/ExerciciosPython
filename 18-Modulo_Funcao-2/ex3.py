@@ -5,3 +5,11 @@
 #--- O segundo dado deve ser o caracter que será multiplicado para fazer a linha de cabeçalho
 #--- A impressão deve ser realizada utilizando f-string
 #--- A função deve ser chamada informando os dois dados
+
+def cabecalho(caracter , nome):
+    return print(f'{caracter}'*50,f'\n\t\t\t{nome}')
+
+caracter = '='
+nome = 'HBSIS'
+
+cabecalho(caracter, nome)
