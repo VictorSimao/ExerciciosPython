@@ -5,12 +5,12 @@
 #--- Realize o calculo da raiz e armazene em uma segunda variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
 
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite o indice da raiz: '))
-
 def raiz(n1,n2):
     raiz = n1 * (1/n2)
     return raiz
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite o indice da raiz: '))
 
 raiz = raiz(n1,n2)
 

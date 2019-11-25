@@ -6,17 +6,17 @@
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
 
 
-caracter_superior = input('Digite algo para o cabeçalho: ')
-caracter_inferior = input('Digite algo para o rodapé: ')
-vezes = int(input('Digite a quantidade de vezes a ser multiplicado: '))
-
-empresa = 'HBSIS'
-
 def cabecalho(caracter_superior, vezes):
     return caracter_superior * vezes
 
 def rodape(caracter_inferior, vezes):
     return caracter_inferior * vezes
+
+caracter_superior = input('Digite algo para o cabeçalho: ')
+caracter_inferior = input('Digite algo para o rodapé: ')
+vezes = int(input('Digite a quantidade de vezes a ser multiplicado: '))
+
+empresa = 'HBSIS'
 
 cabecalho = cabecalho(caracter_superior, vezes)
 rodape = rodape(caracter_inferior, vezes)
