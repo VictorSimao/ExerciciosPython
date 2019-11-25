@@ -4,7 +4,3 @@
 #--- O menu deve conter as opções de Cadastrar, Alterar, Listar e Sair
 #--- Cada opção deve vir acompanhada de um número
 #--- Cada opção deve ser impressa em uma linha diferente
-
-print('--'*20)
-print('M E N U\n \n1. Cadastrar\n2. Alterar\n3. Listar\n4. Sair\n')
-print('--'*20)
