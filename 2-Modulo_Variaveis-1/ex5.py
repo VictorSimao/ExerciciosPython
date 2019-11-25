@@ -9,3 +9,9 @@
 #--- Os dados dos papéis devem estar em variáveis
 #--- A tela deve conter cabeçalho e rodapé
 #--- Deve ser usado os caracteres de tabulação e quebra de linha
+
+print('='*50,'\n'*3)
+nome = 'BTG'
+tipo = 
+cotacao_atual = 'Cotação Atual: 70,99'
+valor_minimo = ''
