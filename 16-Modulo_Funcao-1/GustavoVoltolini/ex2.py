@@ -3,10 +3,3 @@
 #--- Armazene cada número em uma variável
 #--- Realize a soma entre os dois números e armazene o resultado em uma terceira variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
-
-n1 = int(input('Digite um numero:'))
-n2 = int(input('Digite outro numero:'))
-
-n3 = n1 + n2
-
-print(f'{n1} + {n2} = {n3}')

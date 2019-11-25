@@ -4,10 +4,3 @@
 #--- Imprima o resultado juntamente com uma frase utilizando f-string
 #--- Faça a leitura de dois números inteiros fora da função e atribua a duas variáveis
 #--- Realize a chamada da função passando os dois valores lidos do console
-
-from metodo_1 import vezes
-
-n1 = int(input('Digite um numero: '))
-n2 = int(input('Digite outro numero: '))
-
-print(f'{n1} x {n2} = {vezes(n1,n2)}')
