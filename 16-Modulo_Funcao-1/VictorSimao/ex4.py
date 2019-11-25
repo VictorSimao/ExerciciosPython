@@ -7,15 +7,15 @@
 
 caracter = input('Digite um caracter: ')
 
-def cabecalho(caracter):
+def cabecalho():
     print(caracter*46,)
     print('Cervejaria AMBEV / HBSIS - Blumenau - 17/11/19')
     print(caracter*46)
 
-def rodape(caracter):
+def rodape():
     print(caracter*46,)
     print('         que a força esteja com voce')
     print(caracter*46)
 
-cabecalho(caracter)
-rodape(caracter)
+cabecalho()
+rodape()
