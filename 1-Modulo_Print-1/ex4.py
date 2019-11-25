@@ -6,11 +6,3 @@
 #---   2 - Listar bebidas não alcoolicas
 #---   3 - Visualizar Pedido
 #---   4 - Sair
-
-print('**'*60)
-
-nome = (input('\nPor favor digite seu nome: '))
-print(f'Olá, seja bem vindo {nome}!')
-print('Escolha uma das opções abaixo:\n1 - Lista de bebidas alcoolicas:\n2 - Lista de bebidas nao alcoolicas:\n3 - Visualizar seu pedido:\n4 - Sair\n')
-
-print('**'*60)

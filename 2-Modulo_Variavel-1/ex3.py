@@ -7,13 +7,3 @@
 #---    Autor
 #---    Data de publicação
 #--- Os parágrafos devem estar formatados conforme a formatação do livro
-
-Titulo = 'A arte da guerra'
-Edição = 'Pocket - Traduzida para o portugues'
-Autor = 'Sun Tzu'
-Data_de_publicacao = 'outono de 2006'
-
-print(f'Titulo do livro: {Titulo}\nEdição: {Edição}\nAutor: {Autor}\nData de publicação: {Data_de_publicacao}\n')
-print('\tConhece teu inimigo e conhece-te a ti mesmo, se tiveres cem combates a travar, cem vezes serás vitorioso.')
-print('\tSe ignoras teu inimigo e conheces a ti mesmo, tuas chances de perder e de ganhar serão idênticas.')
-
