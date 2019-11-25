@@ -6,3 +6,6 @@
 #---   2 - Listar bebidas não alcoolicas
 #---   3 - Visualizar Pedido
 #---   4 - Sair
+
+print('\n\nMundo da Cerveja\n\nMENU\n\nBebidas não alcoolicas\n\n1 - Coca-cola\n\n2 - Chá\n\nBebidas alcoolicas\n\n3 - Stella\n\n4 - Skol\n\n                                                              Visualiar pedido\n ') 
+print('                                                                   SAIR')
