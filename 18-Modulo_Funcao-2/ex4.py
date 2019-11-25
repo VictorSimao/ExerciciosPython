@@ -10,4 +10,3 @@
 #--- O resultado deve ser impresso pela função juntamente com uma frase e utilizando f-string
 #--- Deve ser realizada a leitura do salário fora da função e armazenada em uma variável
 #--- Chamar a função e passar a variável do salário criada durante a leitura do console
-

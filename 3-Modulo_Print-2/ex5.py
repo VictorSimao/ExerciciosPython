@@ -6,3 +6,7 @@
 #--- Utilize f-string para concatenação das strings
 #--- Imprima um cabeçalho e um rodapé utilizando multiplicação de strings
 #--- Imprima espaçamentos utilizando tabulação e quebra de linha
+
+name = 'George Gabriel Pereira da Silva'
+link_linkedin = 'www.linkedin.com/georgegabriel'
+link_git = 'https://github.com/Geo-Gabriel'

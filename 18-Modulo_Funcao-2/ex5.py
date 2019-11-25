@@ -9,4 +9,4 @@
 #---    2-Chamar uma função Listar(), esta função deve imprimir 'Lista de usuários cadastrados'
 #--- Crie um menu com cabeçalho e rodapé com as opções listadas acima
 #--- Realize a leitura da opção digitada pelo usuário no terminal
-#--- Realize a chamada da função que valida o menu e passe o variável criada durante a leitura do terminal
+#--- Realize a chamada da função que valida o menu e passe o variável criada durante a leitura
