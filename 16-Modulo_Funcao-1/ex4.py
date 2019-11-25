@@ -6,15 +6,12 @@
 #--- Crie uma chamada para as duas funções, para exibir o resultado no console
 
 def header(empresa, char):
-    empresa = empresa
-    char = char
     print(char*55, '\n')
     print(empresa)
     print('\n', char*55, '\n', sep='')
     return ''
 
 def footer(char):
-    char = char
     print('\n', char*55, sep='')
     return ''
 
