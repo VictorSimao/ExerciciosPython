@@ -4,3 +4,8 @@
 #--- O menu deve conter as opções de Cadastrar, Alterar, Listar e Sair
 #--- Cada opção deve vir acompanhada de um número
 #--- Cada opção deve ser impressa em uma linha diferente
+
+print('1- cadastrar: ')
+print('2- alterar: ')
+print('3- listar: ')
+print('4- sair')

@@ -6,3 +6,9 @@
 #---   2 - Listar bebidas não alcoolicas
 #---   3 - Visualizar Pedido
 #---   4 - Sair
+
+print('AMBEV/HBSIS')
+print('Bebidas Alcoolicas')
+print('Bebidas NÃO Alcoolicas')
+print('Visualizar pedido')
+print('Sair')
