@@ -7,3 +7,12 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+def expo (a,b):
+    potencia = (a ** b)
+    print (f'O resultado tendo "a" como base e "b" como potência é: {potencia}')
+
+a = int(input('Digite a (base): '))
+b = int(input('Digite b (potência): '))
+
+expo(a,b)
