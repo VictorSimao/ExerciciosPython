@@ -11,17 +11,19 @@
 origem= 'Blumenau - SC'
 destino= 'Hotel Boa Vista'
 
+parada0 = {'Descrição':'Saida de casa', 'Data':'26/11/2019', 'Hora':'06:00'}
+parada1 = {'Descrição':'Posto Gasolina - Cafe da manhã', 'Data':'26/11/2019', 'Hora':'08:30'}
+parada2 = {'Descrição':'Almoço Churrascaria Porcão', 'Data':'26/11/2019', 'Hora':'12:30'}
+parada3 = {'Descrição':'Mirante Serra Mantiqueira', 'Data':'26/11/2019', 'Hora':'14:30'}
+parada4 = {'Descrição':'Chegada Hotel', 'Data':'26/11/2019', 'Hora':'16:00'}
+
+
 print(f'Origem: {origem}\n')
 
-print(f'Parada 1: Posto Gasolina ,Data: 26/11/2019 , Hora: 05:30\n')
-print(f'Parada 2: cafe da manha pamonha da vo alzira,Data: 26/11/2019 , Hora: 08:30\n')
-print(f'Parada 3: mirante boa vista,Data: 26/11/2019 , Hora: 10:30\n')
-print(f'Parada 4: almoço churrasco porcão,Data: 26//11/2019 , Hora: 12:30\n')
-print(f'Parada 5: lanche da tarde cantina da uva, Data: 26/11/2019, Hora: 15:00\n')
-print(f'Parada 6: hotel therma agua gelada, Data: 26/11/2019, Hora: 16:00\n')
-print(f'Parada 7: plantação de banana, Data: 27/11/2019, Hora: 09:45\n')
-print(f'Parada 8: almoço em morretes, Data: 27/11/2019, Hora: 11:30\n')
-print(f'Parada 9: passeio de trem, Data: 27/11/2019, Hora: 14hrs\n')
-print(f'Parada 10: feirinha noturna, Data: 27/11/2019, Hora: 18hrs\n')
+print(f'{parada0}\n')
+print(f'{parada1}\n')
+print(f'{parada2}\n')
+print(f'{parada3}\n')
+print(f'{parada4}\n')
 
 print(f'Destino: {destino}\n')
