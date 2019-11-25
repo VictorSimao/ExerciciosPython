@@ -6,3 +6,6 @@
 #---   2 - Listar bebidas não alcoolicas
 #---   3 - Visualizar Pedido
 #---   4 - Sair
+print('*' * 50, '\n')
+print('1 - Listar bebidas alcoolicas','\n2 - Listar bebidas não alcoolicas', '\n3 - Visualizar pedido', '\n4 - Sair\n')
+print('*' * 50)

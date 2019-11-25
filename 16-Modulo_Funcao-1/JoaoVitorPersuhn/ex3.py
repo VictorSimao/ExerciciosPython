@@ -4,7 +4,6 @@
 #--- Calcule a média entre os três números e armazene em uma quarta variável
 #--- Imprima a média e uma mensagem usando f-string (módulo 3)
 #--- Deve ser impresso apenas duas cadas após a vírgula
-
 def calculaMedia(n1 : float, n2 : float, n3 : float):
     return (n1 + n2 + n3) / 3
 

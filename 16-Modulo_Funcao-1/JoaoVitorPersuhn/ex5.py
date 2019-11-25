@@ -4,7 +4,6 @@
 #--- Leia um número do console e armazene em uma variável
 #--- Realize o calculo da raiz e armazene em uma segunda variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
-
 def calculaRaiz(indice : int, valorCalcular : int):
     return valorCalcular ** (1/indice)
 
