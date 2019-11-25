@@ -31,13 +31,13 @@ faixa3 = faixa3(salario)
 faixa4 = faixa4(salario)
 
 if salario <= 1000:
-    print(f'O desconto é de R$: {faixa1}\n')
+    print(f'O desconto é de R$: {faixa1:.2f}')
 
 elif salario >= 1000.01 and salario <=3000:
-     print(f'O desconto é de R$: {faixa2}\n')
+     print(f'O desconto é de R$: {faixa2:.2f}\n')
 
 elif salario >= 3000.01 and salario <=6000.00:
-     print(f'O desconto é de R$: {faixa2}\n')
+     print(f'O desconto é de R$: {faixa2:.2f}\n')
 
 else:
-     print(f'O desconto é de R$: {faixa4}\n')
+     print(f'O desconto é de R$: {faixa4:.2f}\n')
