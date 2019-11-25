@@ -10,3 +10,22 @@
 #--- O resultado deve ser impresso pela função juntamente com uma frase e utilizando f-string
 #--- Deve ser realizada a leitura do salário fora da função e armazenada em uma variável
 #--- Chamar a função e passar a variável do salário criada durante a leitura do console
+
+def funcao(salario):
+    if salario <= 1000:
+        contribuicao = salario * 0.01
+    elif salario > 1000 <= 3000:
+        contribuicao = salario * 0.015
+    elif salario > 3000 <= 6000:
+        contribuicao = salario * 0.02
+    elif salario >= 6001:
+        contribuicao = salario * 0.025
+    else:
+        print('Salario invalido')
+    return contribuicao 
+
+salario = float(input('Digite o seu salario: '))
+calc = funcao(salario)
+
+print(f'A contribuição será de {calc} reais para a previdencia da empresa')
+

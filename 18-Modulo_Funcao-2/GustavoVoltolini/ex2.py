@@ -7,3 +7,11 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+def poten(base,exp):
+    potencia = base ** exp
+    return print (f'Potencia de base {base} e expoente {exp} = {potencia}')
+
+base = float(input('Digite a base:'))
+exp = float(input('Digite o expoente:'))
+poten (base,exp)

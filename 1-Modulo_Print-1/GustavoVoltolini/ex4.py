@@ -6,3 +6,8 @@
 #---   2 - Listar bebidas não alcoolicas
 #---   3 - Visualizar Pedido
 #---   4 - Sair
+
+
+print ('\n'+'-'*50)
+print ('1 - Listar bebidas alcoolicas\n2 - Listar bebidas não alcoolicas\n3 - Visualizar pedido\n4 - Sair')
+print ('\n'+'-'*50)

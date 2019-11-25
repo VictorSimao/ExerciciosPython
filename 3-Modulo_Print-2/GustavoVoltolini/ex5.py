@@ -6,3 +6,11 @@
 #--- Utilize f-string para concatenação das strings
 #--- Imprima um cabeçalho e um rodapé utilizando multiplicação de strings
 #--- Imprima espaçamentos utilizando tabulação e quebra de linha
+
+nome = 'Gustavo Antunes Voltolini'
+linkedin = 'https://br.linkedin.com/'
+git = 'https://github.com/GustavoAV2'
+
+print ('\n'+'#'*50)
+print (f'User: {nome}\nContatos:\nLinkedin:{linkedin}\nGitHub:{git}')
+print ('#'*50)

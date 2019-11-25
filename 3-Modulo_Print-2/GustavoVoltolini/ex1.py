@@ -4,3 +4,8 @@
 #--- Crie uma variável e atribua um valor inteiro com sua idade
 #--- Imprima as três variáveis juntamente um uma frase de apresentação
 #--- Utilize a função format()
+
+nome = 'Gustavo'
+sobrenome = 'Voltolini'
+idade = 16
+print (f'Bom dia! Meu nome é {nome} {sobrenome} eu tenho {idade} anos')

@@ -10,3 +10,19 @@
 #--- Crie um menu com cabeçalho e rodapé com as opções listadas acima
 #--- Realize a leitura da opção digitada pelo usuário no terminal
 #--- Realize a chamada da função que valida o menu e passe o variável criada durante a leitura do terminal
+
+
+def check(op):
+    if op >= 0 <= 2:
+        if op == 0:
+            print('Usuário realizou o logoff')
+        elif op == 1:
+            print('Cadastro de usuários')
+        elif op == 2:
+            print('Lista de usuários cadastrados')
+    else:
+        print('Opção invalida!')
+    return op
+    
+op = int(input('\n0- Sair \n1- Cadastrar \n2- Listar \nOpção: '))
+check = check(op)
