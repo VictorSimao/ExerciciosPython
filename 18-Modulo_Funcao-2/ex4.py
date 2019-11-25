@@ -10,9 +10,3 @@
 #--- O resultado deve ser impresso pela função juntamente com uma frase e utilizando f-string
 #--- Deve ser realizada a leitura do salário fora da função e armazenada em uma variável
 #--- Chamar a função e passar a variável do salário criada durante a leitura do console
-from metodo_1 import imposto
-
-salario = float(input('Digite seu salario:'))
-
-print(f'Sua contribuiçao é de: {imposto(salario)}')
-
