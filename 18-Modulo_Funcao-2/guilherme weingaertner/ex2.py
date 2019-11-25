@@ -7,3 +7,10 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+from metodo_1 import potencia
+
+n1 = int(input('Digite um numero:'))
+n2 = int(input('Digite o expoente:'))
+
+print("{} elevada a {}: {}".format(n1,n2,potencia(n1,n2)))
