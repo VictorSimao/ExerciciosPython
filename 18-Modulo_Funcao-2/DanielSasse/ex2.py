@@ -7,3 +7,12 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+def potencia(n1,n2):
+    resultado = n1**n2
+    return resultado
+
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite um número: "))
+
+print(f'o número {n1} elevado a {n2} resulta em {potencia(n1,n2)}')

@@ -4,4 +4,13 @@
 #--- Imprima o resultado juntamente com uma frase utilizando f-string
 #--- Faça a leitura de dois números inteiros fora da função e atribua a duas variáveis
 #--- Realize a chamada da função passando os dois valores lidos do console
+def multiplicacao(n1,n2):
+    resultado = n1*n2
+    return resultado
 
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite um número: "))
+
+
+
+print(multiplicacao(n1,n2))
