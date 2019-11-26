@@ -7,6 +7,6 @@
 empresa = 'HBSIS'
 
 def menu(empresa):
-    return(print('-'*55,f'\n\t\t\t{empresa}\n','-'*55))
+    return('-'*55,f'\n\t\t\t{empresa}\n','-'*55)
 
 menu = menu(empresa)
