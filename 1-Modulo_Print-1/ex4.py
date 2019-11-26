@@ -6,3 +6,7 @@
 #---   2 - Listar bebidas não alcoolicas
 #---   3 - Visualizar Pedido
 #---   4 - Sair
+
+print('Menu de lista de bebidas alcoolicas')
+print('Lista bebidas: ','\n''Brahma(1)','\n''pepsi(2)','\n''Corona(3)' )
+print('Seu pedido: Brahma')

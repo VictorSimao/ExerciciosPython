@@ -10,4 +10,4 @@ def soma ():
     resultado = n1+n2
     print(f'Oresultado da soma entre {n1} e {n2} da um total de: {resultado}')
 
-soma ()
+soma()

@@ -4,4 +4,4 @@
 #--- O menu deve conter as opções de Cadastrar, Alterar, Listar e Sair
 #--- Cada opção deve vir acompanhada de um número
 #--- Cada opção deve ser impressa em uma linha diferente
-print(' menu de pessoas: (1)', '\n', 'Cadastrar: (2) ', '\n', 'Alterar: (3) ', '\n', 'Sair: (4) ' )
+print('='*50,'\n' 'menu de pessoas: ''\n',  '\n','\n' 'Cadastrar:   (1) ', '\n', '\n''Alterar:  (2) ', '\n', '\n''Sair: (3)','\n', '='*50, )
