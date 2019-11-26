@@ -13,4 +13,4 @@ instagram = True
 facebook = False
 telegram = True
 
-print(f'meu nome é {nome} e possuo as conta nas seguintes redes sociais: {linkedin}, {instagram}, {facebook}, {telegram}')
+print(f'meu nome é {nome} e possuo as conta nas seguintes redes sociais: \nLinkedin: {linkedin}\nInstagram: {instagram}\nFacebook: {facebook}\nTelegram: {telegram}')

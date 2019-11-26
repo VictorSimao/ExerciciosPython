@@ -4,9 +4,10 @@
 #--- Realize a soma entre os dois números e armazene o resultado em uma terceira variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
 
-def somar():
-    n1 = int(input("Digite um número: "))
-    n2 = int(input("Digite um número: "))
-    soma = n1+n2
-    print(f"A soma entre {n1} e {n2} resulta em {soma}")
-somar()
+def somar(n1,n2):
+    return n1,n2
+
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite um número: "))
+
+print(f'A soma entre {n1} e {n2} resulta em {somar(n1,n2)}')
