@@ -11,3 +11,23 @@
 #--- Deve ser realizada a leitura do salário fora da função e armazenada em uma variável
 #--- Chamar a função e passar a variável do salário criada durante a leitura do console
 
+def calcularPrevidencia(salario):
+    if salario <= 1000:
+        imposto = salario * 0.01
+
+    elif 1000.01 < salario < 3000:
+        imposto = salario * 0.015
+
+    elif 3000 < salario < 6000:
+        imposto = salario * 0.02
+
+    else:
+        imposto = salario * 0.025
+
+    return (salario - imposto)
+
+salario = float(input("Entre com o salario: "))
+
+calcular = calcularPrevidencia(salario)
+
+print(f'O salario é de R$ {salario} e com imposto ficara R$ {calcular}')
