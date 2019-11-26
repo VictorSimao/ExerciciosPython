@@ -14,4 +14,5 @@ def cabecalho(empresa_nome, caractere):
 
 empresa_nome = input('Digite o nome da empresa: ')
 caractere = input('Digite o caractere desejado: ')
+
 cabecalho(empresa_nome, caractere)
