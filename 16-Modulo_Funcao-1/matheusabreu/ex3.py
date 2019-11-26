@@ -10,6 +10,6 @@ def media():
     n2 = float(input('Digite o segundo número: '))
     n3 = float(input('Digite o terceiro número: '))
     result_media = (n1 + n2 + n3)/3
-    return print(f'\nO resultado da média entre {n1}, {n2} e {n3} é: {result_media:.2f}')
+    print(f'\nO resultado da média entre {n1}, {n2} e {n3} é: {result_media:.2f}')
 
 media()

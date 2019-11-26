@@ -8,6 +8,6 @@ def soma():
     n1 = int(input('\nDigite o primeiro número: '))
     n2 = int(input('Digite o segundo número: '))
     result_soma = n1 + n2
-    return print(f'\nO reseultada da soma dos números {n1} e {n2} é: {result_soma}')
+    print(f'\nO reseultada da soma dos números {n1} e {n2} é: {result_soma}')
 
 soma()

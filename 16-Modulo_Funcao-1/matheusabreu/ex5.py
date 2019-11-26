@@ -9,6 +9,6 @@ def raiz():
     indice = int(input('\nDigite o indice: '))
     radicando = int(input('Digite o radicando: '))
     resultado = radicando ** (1/indice)
-    return print(f'\nO resulto da raíz é entre os dois números é: {resultado}')
+    print(f'\nO resulto da raíz é entre os dois números é: {resultado:.2f}')
 
 raiz()
