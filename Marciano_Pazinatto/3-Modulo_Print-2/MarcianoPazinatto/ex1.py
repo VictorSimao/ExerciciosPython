@@ -4,3 +4,8 @@
 #--- Crie uma variável e atribua um valor inteiro com sua idade
 #--- Imprima as três variáveis juntamente um uma frase de apresentação
 #--- Utilize a função format()
+
+nome='Marciano'
+sobre='Pazinatto'
+idade=31
+print('Meu nome é {} meu sobrenome é {} e idade {}'.format(nome,sobre,idade))

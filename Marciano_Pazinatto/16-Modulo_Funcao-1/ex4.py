@@ -5,15 +5,16 @@
 #--- Crie uma segunda função que imprima um rodapé utilizando a mesma técnica
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
 
-def cab(a,c):
-    
+def cab():
+    a='*'*50
+    c='Que O Código Esteja Com Você'  
     print(f'{a}\n\t{c}')
 
-a='*'*50
-c='Que O Código Esteja Com Você'  
 
-def rod(a):
+
+def rod():
+    a='*'*50
     print(f'\n\n{a}')
 
-cab(a,c)     
-rod(a) 
+cab()     
+rod() 
