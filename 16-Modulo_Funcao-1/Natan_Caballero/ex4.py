@@ -4,3 +4,13 @@
 #--- A multiplicação deve ser feita em cima de uma variável que contenha um caracter pré-determinado
 #--- Crie uma segunda função que imprima um rodapé utilizando a mesma técnica
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
+
+from metodos import rodape, rodape2
+
+n = '-'
+
+print(rodape(n))
+
+print('Olá Mundo')
+
+print(rodape2(n))

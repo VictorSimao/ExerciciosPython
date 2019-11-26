@@ -7,3 +7,13 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+from metodos import potencia
+
+print('='*50, '\n')
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+r = potencia(n1, n2)
+
+print('\n', '='*50)
