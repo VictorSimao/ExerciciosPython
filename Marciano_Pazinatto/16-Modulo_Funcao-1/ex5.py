@@ -4,8 +4,12 @@
 #--- Leia um número do console e armazene em uma variável
 #--- Realize o calculo da raiz e armazene em uma segunda variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
+def ra(numero,valor):
+    raiz=numero**(1/valor)
+    return raiz
+
 numero=int(input('Digite um número: '))
 valor=int(input('Digite o tipo de raiz: '))
-raiz=numero**(1/valor)
 
-print(f'O número {numero} calculando a raiz de {valor} é igual a {raiz}')
+
+print(f'O número {numero} calculando a raiz de {valor} é igual a {ra(numero,valor)}')
