@@ -9,8 +9,6 @@
 #--- Os dados dos papéis devem estar em variáveis
 #--- A tela deve conter cabeçalho e rodapé
 #--- Deve ser usado os caracteres de tabulação e quebra de linha
-print=" Os 5 papéis mais cotados na bolsa de valores de SP"
-
 nome1="JBSS3.SA"
 tipo1="AÇÃO"
 cotacao1="R$ 26,52"
@@ -41,8 +39,12 @@ cotacao5="29,88"
 valor_min5="29,83"
 valor_max5="30,10"
 
-print(f"Nome: {nome1} \n Tipo: {tipo1} \n Cotação: {cotacao1} \n Valor Mínimo: {valor_min1} \n Valor Máximo: {valor_max1}")
-print(f"Nome: {nome2} \n Tipo: {tipo2} \n Cotação: {cotacao1} \n Valor Mínimo: {valor_min1} \n Valor Máximo: {valor_max1}")
-print(f"Nome: {nome3} \n Tipo: {tipo3} \n Cotação: {cotacao1} \n Valor Mínimo: {valor_min1} \n Valor Máximo: {valor_max1}")
-print(f"Nome: {nome4} \n Tipo: {tipo4} \n Cotação: {cotacao1} \n Valor Mínimo: {valor_min1} \n Valor Máximo: {valor_max1}")
-print(f"Nome: {nome5} \n Tipo: {tipo5} \n Cotação: {cotacao1} \n Valor Mínimo: {valor_min1} \n Valor Máximo: {valor_max1}")
+print(f'Nome: {nome1} \nTipo: {tipo1} \nCotação: {cotacao1} \nValor Mínimo: {valor_min1} \nValor Máximo: {valor_max1}')
+print("------")
+print(f'Nome: {nome2} \nTipo: {tipo2} \nCotação: {cotacao2} \nValor Mínimo: {valor_min2} \nValor Máximo: {valor_max2}')
+print("------")
+print(f'Nome: {nome3} \nTipo: {tipo3} \nCotação: {cotacao3} \nValor Mínimo: {valor_min3} \nValor Máximo: {valor_max3}')
+print("------")
+print(f'Nome: {nome4} \nTipo: {tipo4} \nCotação: {cotacao4} \nValor Mínimo: {valor_min4} \nValor Máximo: {valor_max4}')
+print("------")
+print(f'Nome: {nome5} \nTipo: {tipo5} \nCotação: {cotacao5} \nValor Mínimo: {valor_min5} \nValor Máximo: {valor_max5}')
