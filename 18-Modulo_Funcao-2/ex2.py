@@ -9,8 +9,7 @@
 #--- Realize a chamada da função passando a base e a potência
 
 from metodo_1 import potencia
+n1 =0 
+n2 =0
 
-n1 = int(input('Digite um numero:'))
-n2 = int(input('Digite o expoente:'))
-
-print("{} elevada a {}: {}".format(n1,n2,potencia(n1,n2)))
+potencia(n1,n2)

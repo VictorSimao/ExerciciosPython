@@ -8,7 +8,7 @@
 
 from metodo_1 import cabecalho
 
-n1 = input('Digite o nome do sistema:')
-n2 = input('Digite o caracter que será multiplicado para fazer a linha de cabeçalho:')
+n1 = 0
+n2 = 0
 
-print(f'{cabecalho(n2,n1)}')
+cabecalho(n1,n2)

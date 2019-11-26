@@ -5,12 +5,13 @@ def vezes(n1,n2):
 def potencia(n1,n2):
     return(n1**n2)
 def cabecalho(n1):
+    n1 = input('Digite o nome do sistema:')
     print('='*80)
     print('\n')
     print(n1)
     print('\n')
     print('='*80)
-    return cabecalho
+    return print(f'{cabecalho}')
 
 def imposto(salario):
     if salario < 1000.00:

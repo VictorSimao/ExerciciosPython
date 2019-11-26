@@ -5,9 +5,19 @@
 #--- Crie uma segunda função que imprima um rodapé utilizando a mesma técnica
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
 
-n1 = input('Digite o nome para o cabeçalho: ')
+n1 =0
 
-print(' ','='*80,'\n'*2)
-print(' ',(n1+' ')*20)
-print('\n'*2,'='*80)
+def printo(n1):
+    n1 = input('Digite o nome para o cabeçalho: ')
+    print(' ','='*80,'\n'*2)
+    print(' ',(n1+' ')*20)
+    return 
 
+def rodape():
+    print('\n'*2,'='*80)
+    return 
+
+printo(n1),rodape()
+    
+
+    

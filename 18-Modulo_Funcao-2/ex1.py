@@ -6,8 +6,6 @@
 #--- Realize a chamada da função passando os dois valores lidos do console
 
 from metodo_1 import vezes
-
-n1 = int(input('Digite um numero: '))
-n2 = int(input('Digite outro numero: '))
-
-print(f'{n1} x {n2} = {vezes(n1,n2)}')
+n1 =0
+n2= 0
+vezes(n1,n2)

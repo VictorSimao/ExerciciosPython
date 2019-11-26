@@ -5,11 +5,15 @@
 #--- Imprima a média e uma mensagem usando f-string (módulo 3)
 #--- Deve ser impresso apenas duas cadas após a vírgula
 
-n1 = float(input('Digite o numero 1:'))
-n2 = float(input('Digite o numero 2:'))
-n3 = float(input('Digite o numero 3:'))
+n1 = 0
+n2 =0
+n3=0
+def meida(n1,n2,n3):
+    n1 = float(input('Digite o numero 1:'))
+    n2 = float(input('Digite o numero 2:'))
+    n3 = float(input('Digite o numero 3:')) 
+    j1 = ((n1 + n2 + n3)/3)
+    j2 = round(j1,2)
+    return print(f'a media de {n1},{n2},{n3} = {j2}')
 
-n4 = ((n1 + n2 + n3)/3)
-
-
-print(round(n4,2))
+meida(n1,n2,n3)

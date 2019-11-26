@@ -5,7 +5,5 @@
 #--- Realize a chamada da função na ultima linha do seu programa
 
 from metodo_1 import cabecalho
-
-n1 = input('Digite o nome do sistema:')
-
-print(f'{cabecalho(n1)}')
+n1 = 0
+cabecalho(n1)
