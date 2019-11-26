@@ -4,3 +4,9 @@
 #--- Leia um número do console e armazene em uma variável
 #--- Realize o calculo da raiz e armazene em uma segunda variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
+
+n1 = int(input('Digite o numero: '))
+n2 = int(input('Digite o indice da raiz: '))
+n3 = n1 ** (1/n2)
+
+print(f'{n3}')

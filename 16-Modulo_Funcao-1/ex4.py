@@ -4,3 +4,10 @@
 #--- A multiplicação deve ser feita em cima de uma variável que contenha um caracter pré-determinado
 #--- Crie uma segunda função que imprima um rodapé utilizando a mesma técnica
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
+
+n1 = input('Digite o nome para o cabeçalho: ')
+
+print(' ','='*80,'\n'*2)
+print(' ',(n1+' ')*20)
+print('\n'*2,'='*80)
+
