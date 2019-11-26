@@ -4,13 +4,21 @@
 #--- O cabeçalho deev conter o nome de uma empresa, que será uma variável
 #--- Realize a chamada da função na ultima linha do seu programa
 
-caracter = input('Digite um caracter a ser multiplicado: ')
-vezes = int(input('Digite a quantidade de vezes a ser multiplicado: '))
+def cabecalho():
+    caracter = input('Digite um caracter a ser multiplicado: ')
+    vezes = int(input('Digite a quantidade de vezes a ser multiplicado: '))
+    empresa = 'HBSIS'
+    return print(empresa, '\n', caracter * vezes, '\n', cabecalho)
 
-empresa = 'HBSIS'
+cabecalho()
 
-def cabecalho(caracter, vezes):
-    return caracter * vezes
+# caracter = input('Digite um caracter a ser multiplicado: ')
+# vezes = int(input('Digite a quantidade de vezes a ser multiplicado: '))
 
-cabecalho = cabecalho(caracter, vezes)
-print(empresa,'\n', cabecalho)
+# empresa = 'HBSIS'
+
+# def cabecalho(caracter, vezes):
+#     return caracter * vezes
+
+# cabecalho = cabecalho(caracter, vezes)
+# print(empresa,'\n', cabecalho)

@@ -6,12 +6,20 @@
 #--- A impressão deve ser realizada utilizando f-string
 #--- A função deve ser chamada informando os dois dados
 
-def cabecalho(caracter):
-    return caracter * 100
+def cabecalho():
+    nomeSistema = input('Digite o nome do sistema: ')
+    caracter = input('Digite um caracter a ser multiplicado: ')
+    print('\n'*2, nomeSistema, '\n', caracter * 100, '\n'*2)
 
-nomeSistema = input('Digite o nome do sistema: ')
-caracter = input('Digite um caracter a ser multiplicado: ')
+cabecalho()
 
-cabecalho = cabecalho(caracter)
 
-print('\n'*2, nomeSistema, '\n', cabecalho, '\n')
+# def cabecalho(caracter):
+#     return caracter * 100
+
+# nomeSistema = input('Digite o nome do sistema: ')
+# caracter = input('Digite um caracter a ser multiplicado: ')
+
+# cabecalho = cabecalho(caracter)
+
+# print('\n'*2, nomeSistema, '\n', cabecalho, '\n')

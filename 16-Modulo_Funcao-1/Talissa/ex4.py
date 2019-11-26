@@ -6,19 +6,12 @@
 #--- Crie uma chamada para as duas função, para exibir o resultado no console
 
 
-def cabecalho(caracter_superior, vezes):
-    return caracter_superior * vezes
+def cabecalhoRodape():
+    empresa = 'HBSIS'
+    caracter_superior = input('Digite algo para o cabeçalho: ')
+    caracter_inferior = input('Digite algo para o rodapé: ')
+    vezes = int(input('Digite a quantidade de vezes a ser multiplicado: '))
+    print(caracter_superior * vezes,'\n'*3, empresa,'\n'*3, caracter_inferior * vezes)
+    return
 
-def rodape(caracter_inferior, vezes):
-    return caracter_inferior * vezes
-
-caracter_superior = input('Digite algo para o cabeçalho: ')
-caracter_inferior = input('Digite algo para o rodapé: ')
-vezes = int(input('Digite a quantidade de vezes a ser multiplicado: '))
-
-empresa = 'HBSIS'
-
-cabecalho = cabecalho(caracter_superior, vezes)
-rodape = rodape(caracter_inferior, vezes)
-
-print(cabecalho,'\n', empresa,'\n'*3, empresa,'\n', rodape)
+cabecalhoRodape()

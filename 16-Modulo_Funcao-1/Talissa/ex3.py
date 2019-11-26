@@ -5,15 +5,28 @@
 #--- Imprima a média e uma mensagem usando f-string (módulo 3)
 #--- Deve ser impresso apenas duas cadas após a vírgula
 
-def media(n1,n2,n3):
+def media():
+    n1 = float(input('Digite um número: '))
+    n2 = float(input('Digite outro número: '))
+    n3 = float(input('Digite outro número: '))
     media = (n1+n2+n3)/3
+    print(f'\nA média de {n1} + {n2} + {n3} = {media:.2f}')
     return media
 
-n1 = float(input('Digite um número: '))
-n2 = float(input('Digite outro número: '))
-n3 = float(input('Digite outro número: '))
+media()
 
-media = media(n1,n2,n3)
 
-print(f'\nA média de {n1} + {n2} + {n3} = {media:.2f}')
 
+
+
+# def media(n1,n2,n3):
+#     media = (n1+n2+n3)/3
+#     return media
+
+# n1 = float(input('Digite um número: '))
+# n2 = float(input('Digite outro número: '))
+# n3 = float(input('Digite outro número: '))
+
+# media = media(n1,n2,n3)
+
+# print(f'\nA média de {n1} + {n2} + {n3} = {media:.2f}')
