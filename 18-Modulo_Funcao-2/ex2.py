@@ -7,3 +7,10 @@
 #--- Realize a leitura da base e da potência fora da função 
 #--- A leitura deve ser feita através do terminal e atribuída à duas variáveis
 #--- Realize a chamada da função passando a base e a potência
+
+def calculo_potencia (base, expoente):
+    resultado = base**expoente
+    print(f'{base} elevado a potência de {expoente} é {resultado}')
+n1 = int(input('Digite a base da exponenciação: '))
+n2 = int(input('Digite a índice da exponenciação: '))
+calculo_potencia(n1,n2)

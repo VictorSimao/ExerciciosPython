@@ -5,3 +5,8 @@
 #--- O segundo dado deve ser o caracter que será multiplicado para fazer a linha de cabeçalho
 #--- A impressão deve ser realizada utilizando f-string
 #--- A função deve ser chamada informando os dois dados
+
+def cabeçalho ():
+    cabeçalho = print('='*100)
+    sistema = print('\nSISTEMA HBSIS\n')
+cabeçalho()

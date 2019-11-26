@@ -11,3 +11,15 @@
 #--- Deve ser realizada a leitura do salário fora da função e armazenada em uma variável
 #--- Chamar a função e passar a variável do salário criada durante a leitura do console
 
+def calculo_contribuicao (salario):
+    if salario>= 0000.00 and salario <=1000.00:
+        previdencia = salario * 0.01
+    elif salario>= 1000.01 and salario <=3000.00:
+        previdencia = salario * 0.015
+    elif salario>= 3000.01 and salario <=6000.00:
+        previdencia = salario * 0.02
+    else:
+        previdencia = salario * 0.025
+    print(f'Sua contribuição para a previdência da empresa é de R${previdencia:.2f}')
+salario = float(input('Digite seu salário: '))
+calculo_contribuicao(salario)
