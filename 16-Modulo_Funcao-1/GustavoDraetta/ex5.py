@@ -4,3 +4,14 @@
 #--- Leia um número do console e armazene em uma variável
 #--- Realize o calculo da raiz e armazene em uma segunda variável
 #--- Imprima o resultado e uma mensagem usando f-string (módulo 3)
+
+# --- DEFs ---
+def raiz():
+    indice = int( input('Digite o indice da raiz :') )
+    num = float( input('Digite um numero para ser tirada a raiz: ') )
+    res  = num ** (1/indice)
+
+    print(f'{num} raiz de {indice} é {res}')
+
+raiz()
+    
