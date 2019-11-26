@@ -25,13 +25,13 @@ def imposto(salario):
     return n7
 
 def sair():
-    return print('0-Usuário realizou o logoff')
+    return '0-Usuário realizou o logoff'
     
 def cadastrar():
-   return print('1-Cadastro de usuários')
+   return '1-Cadastro de usuários'
 
 def listar():
-   return print('2-Lista de usuários cadastrados')
+   return '2-Lista de usuários cadastrados'
 
 
     

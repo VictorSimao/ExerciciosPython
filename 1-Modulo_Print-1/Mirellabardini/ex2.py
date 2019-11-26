@@ -5,11 +5,8 @@
 #--- Cada opção deve vir acompanhada de um número
 #--- Cada opção deve ser impressa em uma linha diferente
 
-
-cod = int(input('Digite seu código:'))
-
-print('\n1 - Cadastrar')
-print('\n2 -  Alterar')
-print('\n3 - Listar')
-print('4 - Sair')
-
+def imprimir():
+        print('-'*50)
+imprimir()
+print ('Menu de aplicação:\n\n 1- Cadastro\n\n 2-Alterar \n\n 3- Listar \n\n 4- Sair\n\n')
+imprimir()

@@ -11,4 +11,4 @@ def cabecalho (nome_empresa):
     print (" "*30, nome_empresa)
     print ('='*70)
 
-print (cabecalho(nome_empresa))
+cabecalho(nome_empresa)
